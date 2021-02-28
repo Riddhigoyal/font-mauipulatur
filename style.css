@@ -1,0 +1,44 @@
+body{
+    animation-name: exam;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes exam{
+    from {background-image: url("1.jpg");}
+    to {background-image: url("1.jpg");}
+}
+
+.heading{
+    font-size: 30px;
+    width: 100%;
+    margin: 0;
+    box-shadow: 10px 10px 10px cyan;
+    font-family: 'Dancing Script', cursive;
+    color: yellow;
+}
+
+.NOTE{
+    font-size: 19px;
+    font-weight: bold;
+    font-family: cursive;
+    color: turquoise;
+}
+
+#sticky_footer{
+    background-color: black;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    line-height: 3;
+    text-align: center;
+    color: blanchedalmond;
+}
+
+canvas{
+    border: 3px dotted blue;
+    box-shadow: 5px -5px 10px aqua;
+    border-radius: 15px;
+    background-position: center;
+    background-color: teal;
+}
